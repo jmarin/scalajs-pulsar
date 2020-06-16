@@ -1,2 +1,8 @@
 *.class
 *.log
+target/
+.bloop/
+.metals/
+project/metals.sbt
+node_modules/
+yarn.lock
