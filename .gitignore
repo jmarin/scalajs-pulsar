@@ -6,3 +6,4 @@ target/
 project/metals.sbt
 node_modules/
 yarn.lock
+.idea

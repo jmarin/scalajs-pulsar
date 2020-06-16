@@ -13,5 +13,6 @@ scalaJSUseMainModuleInitializer := true
 // TypeScript dependencies
 
 Compile / npmDependencies ++= Seq(
-  "@types/pulsar-client" -> "1.0.2"
+  "@types/pulsar-client" -> "1.0.2",
+  "@types/node" -> "14.0"
 )
