@@ -25,7 +25,7 @@ object PulsarApp {
       c <- consumer.map(_.receive())
       msg <- c.toFuture.map(_.getData())
     } yield {
-      msg.toJSON()
+      msg.toString()
     }
 
     resultF.map(d => println(d))
